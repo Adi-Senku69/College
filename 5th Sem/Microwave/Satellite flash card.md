@@ -98,8 +98,13 @@ Also due to the bulge of the earth, this leads to a decrease in eccentricity, wh
 
 In the east, the eclipse will happen during late evening local time. And in the west early morning local time.
 
-## Satellite Communication  
-Communication done using a communication satellite in which an aritifical satellite receives a communications signal from a transmitting ground station, amplifies and possible processes it, then transmits it back to the earth fro reception by on or more receiving ground stations.
+## Satellite Communication
+
+Communication done using a communication satellite in which an
+aritifical satellite receives a communications signal from a
+transmitting ground station, amplifies and possible processes it, then
+transmits it back to the earth fro reception by on or more receiving
+ground stations.
 
 ```mermaid
 flowchart BT
