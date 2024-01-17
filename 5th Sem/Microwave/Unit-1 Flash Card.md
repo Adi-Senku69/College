@@ -70,11 +70,15 @@ range
 
 **Applications:**
 
-- local oscillators recievers, radar recievers, microwave
-generators
+- local oscillators recievers
+- radar recievers
+- microwave generators
 
-[^1]: Refer Applegate diagrams ## Magnetron This is a
-`high power vaccum tube` used to generate microwaves. These
+[^1]: Refer Applegate diagrams 
+
+## Magnetron
+
+This is a `high power vaccum tube` used to generate microwaves. These
 devices are extremely `costly` and are built for a particular
 frequency. They come in sizes ranging from 8-20 cavities. Taking the
 example of an 8 cavity magnetron:-
