@@ -19,10 +19,10 @@
 `Beam Width:` The ability of the system to separate two adjacent targets.
 
 $$
-\Omega_A = \iint_{\theta = 0\ \phi = 0}^{\phi = 2\pi \ \theta = 2\pi}{\Rho (\theta, \phi)} \, d\theta \ d\phi
+\Omega_A = \iint_{\theta = 0\ \phi = 0}^{\phi = 2\pi \ \theta = 2\pi}{P(\theta, \phi)} \, d\theta \ d\phi
 $$
 
-`Beam Area:` The solid angle through which all of the power radiated by antenna would stream if $\Rho(\theta, \phi)$ is maintained its maximum value over $\Omega_A$ and was 0.
+`Beam Area:` The solid angle through which all of the power radiated by antenna would stream if $P(\theta, \phi)$ is maintained its maximum value over $\Omega_A$ and was 0.
 
 `Radiation Intensity:` Power radiated by antenna per **unit solid angle**.
 
@@ -37,9 +37,11 @@ $$
 `Beam efficiency:` Ratio of main beam area to the total beam area.
 
 $$
-\Omega_A = \Omega_m + \Omega_M 
-\\\epsilon_m = \frac{\Omega_m}{\Omega_A}
+\Omega_A = \Omega_m + \Omega_M
+$$
 
+$$
+\epsilon_m = \frac{\Omega_M}{\Omega_A} 
 $$
 
 `Directivity:` The ratio of **total solid angle** of the sphere to **beam solid angle.** Or it is the measure of the concentration of radiated power in a particular direction. $D \ge 1$
@@ -59,33 +61,9 @@ $$
 `Antenna Temperature:` Measure of noise received by an antenna.
 
 $$
-P_{received} = k . T_{ant}.B \\
-B \ is \ the \ effective \ bandwidth \\
-k \ is \ the \ boltzman \ constant \\
-T_{ant} \ is \ the \ antenna \ temperature
+P_{received} = k . T_{ant}.B
 $$
 
-`Relation between **Directivity** and **Gain**:` 
-
-$$
-D = \frac{U(\theta, \psi)_{max}}{U(\theta, \psi)_{avg}}
-$$
-
-$$
-\Rho(\theta, \psi)_{avg} = \frac{1}{4\pi} \iint_{\theta=0\ \phi=0}^{\theta = 2\pi \ \phi = 2pi} \Rho(\theta, \phi) sin \theta \, d\theta \ d\phi \\
-d\Omega = sin\theta \ d\theta \ d\phi
-$$
-
-$$
-D = \frac{\Rho(\theta, \phi)_{max}}{\frac{1}{4\pi}\iint_{0 \ 0}^{2\pi \ 2\pi} \Rho(\theta, \phi)\, d\Omega}
-$$
-
-$$
-\Rho(\theta, \phi)_{max} = 1 \\
-and \iint_{\theta=0\ \phi=0}^{\theta = 2\pi \ \phi = 2pi} \Rho(\theta, \phi) sin \theta \, d\theta \ d\phi = \Omega_A
-
-$$
-
-$$
-\therefore D = \frac{4\pi}{\Omega_A}
-$$
+B is the effective bandwidth  
+k is the boltzman constant  
+T is the antenna temperature  
