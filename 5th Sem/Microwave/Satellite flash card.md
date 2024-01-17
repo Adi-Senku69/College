@@ -97,3 +97,28 @@ Also due to the bulge of the earth, this leads to a decrease in eccentricity, wh
 **Earth’s equatorial plane** coincides with the plane of the **Earth’s orbit** around the sun. The eclipses begin 23 days before equinox and end 23 days after. They range around 10 - 72 mins from the starting to the ending of the equinox.
 
 In the east, the eclipse will happen during late evening local time. And in the west early morning local time.
+
+## Satellite Communication  
+Communication done using a communication satellite in which an aritifical satellite receives a communications signal from a transmitting ground station, amplifies and possible processes it, then transmits it back to the earth fro reception by on or more receiving ground stations.
+
+```mermaid
+flowchart BT
+user["User"];
+earth_station["Earth Station"];
+antenna["Antenna"];
+satellite["Satellite"];
+Terrestrial_system["Terrestrial system"];
+user1["User"];
+earth_station1["Earth Station"];
+antenna1["Antenna"];
+terrestrial_system1["Terrestrial system"];
+user --> Terrestrial_system;
+Terrestrial_system --> earth_station;
+earth_station --> antenna;
+antenna -- Uplink --> satellite;
+satellite -- Downlink --> antenna1;
+antenna1 --> earth_station1;
+earth_station1 --> terrestrial_system1;
+terrestrial_system1 --> user1;
+
+```
