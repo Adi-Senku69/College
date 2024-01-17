@@ -66,7 +66,11 @@ magnets and a slow wave structure with attenuators. The slow wave structure is i
 The focusing plates and the attenuators focus the electrons into the slow wave structure. Due to the presence of magnetic field, the electrons fired from the gun, 
 depeding on the RF input start to undergo deviation, as they undergo velocity modulation, where the distance traveled by the electron increases thus, varying the velocity.
 Due to this, the electrons start grouping together and produce a difference in phase, but the output is amplified to a great extent.  
-**Need for slow wave structure:** Due to the fact that the RF input is at the speed of light, if we were to increase the velocity, it would only be to a fraction to the speed of light.
+**Need for slow wave structure:** Due to the fact that the RF input is at the speed of light, if we were to increase the velocity, it would only be to a fraction to the speed of light.  
+**Applications:**  
+- Output tube in radar
+- Microwave amplifier
+- Microwave high power generator
 Therefore, it is more cost effective to slow down the RF input to match phase of the electron beam and to induce grouping due to velocity modulation.
 
 
